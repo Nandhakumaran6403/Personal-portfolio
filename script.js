@@ -46,27 +46,6 @@ tabs.forEach((tab) => {
 });
 
 // services box
-const boxViews = document.querySelectorAll(".services-box"),
-  boxBtns = document.querySelectorAll(".services-button"),
-  boxCloses = document.querySelectorAll(".services-box-close");
-
-let box = function (boxClick) {
-  boxViews[boxClick].classList.add("active-box");
-};
-
-boxBtns.forEach((boxBtn, i) => {
-  boxBtn.addEventListener("click", () => {
-    box(i);
-  });
-});
-
-boxCloses.forEach((boxClose) => {
-  boxClose.addEventListener("click", () => {
-    boxViews.forEach((boxView) => {
-      boxView.classList.remove("active-box");
-    });
-  });
-});
 
 //scroll section active link
 const sections = document.querySelectorAll("section[id]");
