@@ -4,6 +4,10 @@ Personal portfolio website
 
 This was a website built to showcase my technical skills, webdesign skills and projects.
 
+# DEMO
+
+https://personal-portfolio-of-nandhakumaran.netlify.app
+
 # Project timeline and technologies used
 
 Build a Portfolio website in 24 hours to showcase the following:
